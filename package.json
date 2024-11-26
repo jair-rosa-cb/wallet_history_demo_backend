@@ -4,7 +4,7 @@
   "description": "",
   "exports": "./build/index.js",
   "scripts": {
-    "dev": "npx nodemon",
+    "dev": "NODE_OPTIONS='--no-warnings --loader ts-node/esm' npx nodemon",
     "start": "node build/index.js",
     "build": "npx tsc -p .",
     "test": "echo \"Error: no test\" && exit 1"
