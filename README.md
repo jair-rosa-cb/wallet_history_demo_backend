@@ -26,7 +26,7 @@ pnpm i
 Start the Express Server
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ---
@@ -36,13 +36,13 @@ npm run dev
 Build the project
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 Start the Express Server
 
 ```bash
-npm start
+pnpm start
 ```
 
 ## Deploying to Vercel
